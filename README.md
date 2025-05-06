@@ -62,7 +62,11 @@ The logistic regression model demonstrated strong classification performance in 
 
 Each ROC curve visualized the balance between true positive rate (sensitivity) and false positive rate (1 - specificity) across decision thresholds. These results confirm the model's ability to recover embedded risk patterns from simulated PRS, even in a complex, multivariate genomic context. 
 
+![ROC Curve](roc_curve_comparison.png)
+
+
 This suggests that PRS-based modeling frameworks, even with synthetic traits, can effectively capture signal from real-world genotypes structures and serve as a platform for testing predictive pipelines. 
+
 
 ## Limitations ⚠️
 
