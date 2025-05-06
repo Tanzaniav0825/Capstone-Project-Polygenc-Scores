@@ -6,11 +6,23 @@ Tanzania Vernon
 
 ## Table of Contents 
 -[Abstract](#abstract)
+
+
 -[Dataset](#dataset)
+
+
 -[Methodology](#methodology)
+
+
 -[Results](#results)
+
+
 -[Limitations](#limitations)
+
+
 -[Future Direction](#futuredirection)
+
+
 -[Poster](#poster)
 
 
