@@ -32,8 +32,18 @@ I developed a polygenic risk scoring pipeline using genomic data and a simulated
 
 2. Effect Size Simulation
    To simulate a complex polygenic trait, I assigned each SNP a synthetic effect size (β value) randomly drawn from a     standard normal distribution. These values represent the simulated contribution of each SNP to disease risk.
+   
 3. PRS Calculation
    For each individual, I computed a polygenic risk scor as the sum of :
 
                        PRS_i = Σ (SNP_dosage_ij × β_j)
+
+   where SNP dosage is the count of alternate alleles at position j for individual i.
+   
+4. Risk Label Assignment
+   Individuals in the top 25% of PRS distriution were labeled High Risk (1); the remaining 75% were labeled Low Risk      (0). This binary label served as the supervised learning target.
+   
+6. Model Training
+   I trained a logistic regression classifier to predict high-risk individuals using the SNP genotype matrix as input.    The model was evaluated using ROC curves across varying SNP set sizes to asses classification performance.
+   
 
