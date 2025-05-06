@@ -58,7 +58,7 @@ I developed a polygenic risk scoring pipeline using genomic data and a simulated
 
 ## Results 📊
 
-The logistic regression model demonstrated strong classification performance in identifying individuaks with high simulated polygenic risk. ROC (Receiver Operationg Characteristic) curves were generated for multiple SNP set sizes, and the model consistently achieved high AUC (Area Under the Curve) values. 
+The logistic regression model demonstrated strong classification performance in identifying individuaks with high simulated polygenic risk. ROC (Receiver Operating Characteristic) curves were generated for multiple SNP set sizes, and the model consistently achieved high AUC (Area Under the Curve) values. 
 
 Each ROC curve visualized the balance between true positive rate (sensitivity) and false positive rate (1 - specificity) across decision thresholds. These results confirm the model's ability to recover embedded risk patterns from simulated PRS, even in a complex, multivariate genomic context. 
 
