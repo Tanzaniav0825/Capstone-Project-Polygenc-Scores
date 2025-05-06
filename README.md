@@ -83,4 +83,13 @@ This suggests that PRS-based modeling frameworks, even with synthetic traits, ca
 6. Scalability to Whole-Genome Analysis: 
    This project focused only on Chromosome 1. Scaling to the full genome would significantly increase computational       complexity and storage requirements, and may introduce noise if weakly associated SNPs dlute the signal.          
    
+## Future Direction 
 
+This project provides a foundation for simulating and modeling polygenic risk using real genomic structure. Fututre work can explore the following avenues: 
+
+- Use of real GWAS summary statistics to replace β values and enable trait-specific PRS modeling.
+- Incorporation of clinical phenotypes to validate model predictions against true disease outcomes.
+- Testing across full genome data, beyond Chromosome 1, to assess genome wide predictive accuracy and computational scalability.
+- Model generalization across populations, addressing ancestry-specific performance gaps by stratifying or reweighting based on population structure.
+- Integration of deel learning models to capture complex non-linear effects and interactions
+- Functional annotation of high-weight SNPs to identify potential regulatory or coding regions influencing trait variation. 
