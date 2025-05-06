@@ -4,6 +4,15 @@ Tanzania Vernon
 
 -This project uses machine learning to simulate and optimize Polygenic Risk Scores (PRS) using data from the 1000 Genomes Project.
 
+## Table of Concepts 
+-[Abstract](#abstract)
+-[Dataset](#dataset)
+-[Methodology](#methodology)
+-[Results](#results)
+-[Limitations](#limitations)
+-[Poster](#poster)
+
+
 ## Absract 🧠
 Identifying individuals at elevated risk for disease is a central challenge in genomics. This project applies machine learning to predict disease risk by constructing polygenic risk scores (PRS) from real genetic data sourced from the 1000 Genomes Project. To simulate a polygenic trait, I extracted unique biallelic SNPs from chromosome 1 and assigned each SNP a simulated effect size (β) drawn from a normal distribution. 
 
@@ -45,5 +54,29 @@ I developed a polygenic risk scoring pipeline using genomic data and a simulated
    
 6. Model Training
    I trained a logistic regression classifier to predict high-risk individuals using the SNP genotype matrix as input.    The model was evaluated using ROC curves across varying SNP set sizes to asses classification performance.
+
+
+## Results 📊
+
+The logistic regression model demonstrated strong classification performance in identifying individuaks with high simulated polygenic risk. ROC (Receiver Operationg Characteristic) curves were generated for multiple SNP set sizes, and the model consistently achieved high AUC (Area Under the Curve) values. 
+
+Each ROC curve visualized the balance between true positive rate (sensitivity) and false positive rate (1 - specificity) across decision thresholds. These results confirm the model's ability to recover embedded risk patterns from simulated PRS, even in a complex, multivariate genomic context. 
+
+This suggests that PRS-based modeling frameworks, even with synthetic traits, can effectively capture signal from real-world genotypes structures and serve as a platform for testing predictive pipelines. 
+
+## Limitations ⚠️
+
+1. Lack of Real Phenotype Data
+   This project uses simulated β values and artificially defined high-risk labels. While this allows controlled           experimentation, it does not reflect true biological effect sizes or clinically validated phenotypes. Real-world       results may differ when working with observed traits and known SNP association.
+2. No Causal Inference
+   The approach identifies statistical signals but does not infer causal relationships between ariants and disease.       Without biological validation or functional studies, the SNPs highlighted by the model should be considered            correlative, not deterministic
+3. Population Structure Bias
+   The 1000 Genomes Project includes individuals from diverse ancestries, but the risk label threshold (top 25%) was      applied uniformly, which may introduce bias or reduce model generalizability across populations. In real clinical      use, PRS thresholds and allele frequencies should be ancestry-specific
+4. Interpretability of the Model
+   While logistic regression is interpretable, the biological meaning of feature weights is limited due to the            simulated nature of the data. These models should not be used for vairant prioritazation or downstream functional      studies.
+5. Overfitting Risks
+   Without cross-validation across seperate genotype cohorts, the model may overfit the simulated labels, especially      if SNPs with extreme β values dominate the score. This could inflate performance metrics in a synthetic context.
+6. Scalability to Whole-Genome Analysis
+   This project focused only on Chromosome 1. Scaling to the full genome would significantly increase computational       complexity and storage requirements, and may introduce noise if weakly associated SNPs dlute the signal.          
    
 
