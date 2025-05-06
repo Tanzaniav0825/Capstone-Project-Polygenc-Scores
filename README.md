@@ -35,4 +35,5 @@ I developed a polygenic risk scoring pipeline using genomic data and a simulated
 3. PRS Calculation
    For each individual, I computed a polygenic risk scor as the sum of :
 
-                       **PRS<sub>i</sub>** = Σ (SNP<sub>ij</sub> × β<sub>j</sub>)
+                       PRS_i = Σ (SNP_dosage_ij × β_j)
+
