@@ -1,5 +1,6 @@
-# Polygenic Risk Score ML Project 🧬
+# Polygenic Risk Score Prediction Using Machine Learning 🧬
 
+Tanzania Vernon
 This project uses machine learning to simulate and optimize Polygenic Risk Scores (PRS) using data from the 1000 Genomes Project.
 
 ## Key Features 
