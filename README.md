@@ -23,7 +23,7 @@ Tanzania Vernon
 - [🚀 Future Direction](#future-direction)
 
 
-- [Poster](#poster)
+- [🖼️ Poster](#poster)
 
 
 ## Absract 🧠
