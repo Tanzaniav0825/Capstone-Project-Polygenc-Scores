@@ -4,7 +4,7 @@ Tanzania Vernon
 
 -This project uses machine learning to simulate and optimize Polygenic Risk Scores (PRS) using data from the 1000 Genomes Project.
 
-## Absract
+## Absract 🧠
 Identifying individuals at elevated risk for disease is a central challenge in genomics. This project applies machine learning to predict disease risk by constructing polygenic risk scores (PRS) from real genetic data sourced from the 1000 Genomes Project. To simulate a polygenic trait, I extracted unique biallelic SNPs from chromosome 1 and assigned each SNP a simulated effect size (β) drawn from a normal distribution. 
 
 Polygenic risk scores were calculated for each individual as the weighted sum of SNP dosages multiplied by these β values. Individuals in the top 25% of PRS were labeled as high risk, while the remaining 75% were labeled low risk. This binary classification served as the target variable for training a logistic regression model using SNP genotype data as features. 
@@ -13,7 +13,7 @@ The model successfully learned to distinguished high-risk individuals in a purel
 
 
 
-## Dataset 
+## Dataset 🔬
 I used real genomic data from the 1000 Genomes Project, a landmark international collaboration that has cataloged human genetic vaiation across global populations. The full dataset includes whole-genome sequencing data from 2,504 individuals reprresenting 26 populations worldwide. 
 
 For this project, we focused on Chromosome 1, extracting biallelic single nucleotide polymorphisms (SNPs) from the publicly available VCF (Variant Call Format) files. SNP dosage data was derived from individuals genotypes, representing the number of alternate alleles (0, 1, or 2) per variant site. 
