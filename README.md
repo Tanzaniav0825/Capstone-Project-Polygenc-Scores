@@ -5,25 +5,25 @@ Tanzania Vernon
 -This project uses machine learning to simulate and optimize Polygenic Risk Scores (PRS) using data from the 1000 Genomes Project.
 
 ## Table of Contents 
--[Abstract 🧠](#abstract)
+- [Abstract 🧠](#abstract)
 
 
--[Dataset 🔬](#dataset)
+- [Dataset 🔬](#dataset)
 
 
--[Methodology ⚙️](#methodology)
+- [Methodology ⚙️](#methodology)
 
 
--[Results 📊](#results)
+- [Results 📊](#results)
 
 
--[Limitations ⚠️](#limitations)
+- [Limitations ⚠️](#limitations)
 
 
--[Future Direction 🚀](#futuredirection)
+- [Future Direction 🚀](#future-direction)
 
 
--[Poster](#poster)
+- [Poster](#poster)
 
 
 ## Absract 🧠
