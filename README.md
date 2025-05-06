@@ -83,7 +83,7 @@ This suggests that PRS-based modeling frameworks, even with synthetic traits, ca
 6. Scalability to Whole-Genome Analysis: 
    This project focused only on Chromosome 1. Scaling to the full genome would significantly increase computational       complexity and storage requirements, and may introduce noise if weakly associated SNPs dlute the signal.          
    
-## Future Direction 
+## Future Direction 🚀
 
 This project provides a foundation for simulating and modeling polygenic risk using real genomic structure. Fututre work can explore the following avenues: 
 
