@@ -23,7 +23,7 @@ The choromosome-scale SNP matrix served as the input for simulating disease risk
 The dataset is available here: 
 https://www.internationalgenome.org/data
 
-## Methodology 
+## Methodology ⚙️
 
 I developed a polygenic risk scoring pipeline using genomic data and a simulated disease model. I preproceesed the data, simulated risk, and train a predictive model by doing the following: 
 
