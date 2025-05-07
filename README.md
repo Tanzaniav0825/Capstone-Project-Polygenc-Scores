@@ -70,6 +70,8 @@ Each ROC curve visualized the balance between true positive rate (sensitivity) a
 
 This suggests that PRS-based modeling frameworks, even with synthetic traits, can effectively capture signal from real-world genotypes structures and serve as a platform for testing predictive pipelines. 
 
+![Top 20 Most Frequnetly Predictive SNPs](top_snps_frequency_top20.png)
+
 
 ## ⚠️ Limitations
 
