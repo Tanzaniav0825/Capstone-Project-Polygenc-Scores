@@ -7,6 +7,7 @@ Tanzania Vernon
 
 ## Table of Contents
 - [🧠 Abstract](#abstract)
+- [Literature Review](#literature-review)
 - [🔬 Dataset](#dataset)
 - [⚙️ Methodology](#methodology)
 - [📊 Results](#results)
@@ -23,6 +24,8 @@ Polygenic risk scores were calculated for each individual as the weighted sum of
 
 The model successfully learned to distinguished high-risk individuals in a purely simulated context, demonstrating the feasibility of using realistic genomic structure to test PRS-based prediction pipelines. By working in a controlled environment with simulated outcomes, I created a flexible framework for experimenting with PS construction, modeling choices, and future extensions using real-world phenotypic labels. 
 
+
+## Literature Review
 
 
 ## 🔬 Dataset 
