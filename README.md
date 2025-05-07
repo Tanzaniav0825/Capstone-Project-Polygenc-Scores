@@ -70,6 +70,8 @@ Each ROC curve visualized the balance between true positive rate (sensitivity) a
 
 This suggests that PRS-based modeling frameworks, even with synthetic traits, can effectively capture signal from real-world genotypes structures and serve as a platform for testing predictive pipelines. 
 
+Additionally, I included a graph highlighting the top 20 most frequently predictive SNPs across multiple logitic regression runs. These SNPs were ranked based on how often they appeared among the top model coefficients. This visualization emphasizes variants with the strongest influence on simulated disease risk and enhances interpretability by showing key contributors. It also suggests potential biological relevance for certain SNPs within polygenic trait modeling frameworks. 
+
 ![Top 20 Most Frequnetly Predictive SNPs](top_snps_frequency_top20.png)
 
 
