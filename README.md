@@ -105,5 +105,5 @@ This project provides a foundation for simulating and modeling polygenic risk us
 - Functional annotation of high-weight SNPs to identify potential regulatory or coding regions influencing trait variation. 
 
 ## 🖼️ Poster 
-!{PRS Poster board}(PRS poster board .png)
+![PRS Poster board](PRS_poster_board .png) 
 
