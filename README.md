@@ -26,7 +26,7 @@ The model successfully learned to distinguished high-risk individuals in a purel
 
 
 ## Literature Review
-
+[View Presentation on Google Slides](https://docs.google.com/presentation/d/13ZIxq4oJgdJxGbkAlBu-Uo3CEipA91MXjFLSZJ39sF4/edit?usp=sharing)
 
 ## 🔬 Dataset 
 I used real genomic data from the 1000 Genomes Project, a landmark international collaboration that has cataloged human genetic vaiation across global populations. The full dataset includes whole-genome sequencing data from 2,504 individuals reprresenting 26 populations worldwide. 
